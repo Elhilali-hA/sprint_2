@@ -1,11 +1,17 @@
 const btn = document.querySelector('.btn')
 const ul = document.querySelector('ul')
-const text = document.querySelector('.t')
+let text = document.querySelectorAll("input")[1]
+
+
+
+
+
+
 btn.addEventListener('click', (e) => {
     e.preventDefault()
     const li = document.createElement('li')
-    li.innerHTML = `${text}`
+    li.textContent = text.value
 
-    ul.prepend(li)
+    ul.append(li)
 
 })

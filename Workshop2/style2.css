@@ -7,7 +7,7 @@
 }
 .container{
     min-height:100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
 }
 .img1{
@@ -31,7 +31,7 @@
     background-image: url("ii/valley.jpg");
      
 }
-.content{
+.contenue{
     background-size: cover;  
     background-position: center;
     flex: 1;
@@ -41,21 +41,17 @@
     align-items: center;
     width: 100%;
    
-    /* width: 300px;
-    height: 640px; */
+
 }
-.content p{
+.contenue p{
     color: white;
     font-size: 37px;
 }
-.content p:nth-child(1){
+.contenue p:nth-child(1){
     font-size: 10px;
-    /* transform: translateY(-20rem); */
+    transform: translateY(-20rem);
 }
-.content p:nth-child(3){
+.contenue p:nth-child(3){
     font-size: 10px;
-    /* transform: translateY(20rem); */
-}
-.changes {
-    flex: 1 0 39%;
+    transform: translateY(20rem);
 }

@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.container{
+    min-height:100vh;
+    /* overflow: hidden; */
+    display: flex;
+}
+.img1{
+    background-image: url("ii/fog.jpg");
+    
+
+}
+.img2{
+    background-image: url("ii/fox.jpg");
+  
+}
+.img3{
+    background-image: url("ii/ice.jpg");
+
+}
+.img4{
+    background-image: url("ii/montagne.jpg");
+
+}
+.img5{
+    background-image: url("ii/valley.jpg");
+     
+}
+.content{
+    background-size: cover;  
+    background-position: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    /* width: 300px;
+    height: 640px; */
+}
+.content p{
+    color: white;
+    font-size: 37px;
+}
+.content p:nth-child(1){
+    font-size: 10px;
+    /* transform: translateY(-20rem); */
+}
+.content p:nth-child(3){
+    font-size: 10px;
+    /* transform: translateY(20rem); */
+}
+.changes {
+    flex: 1 0 39%;
+}

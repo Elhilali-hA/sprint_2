@@ -27,7 +27,7 @@ var affichageHeure = function(){
     secondes = deuxChiffres(today.getSeconds());
 
     //Affichage dans nos DIV du HTML : 
-    heuresDiv.textContent = heures + ":" + minutes + ":" + secondes;
+    heuresDiv.textContent = heures + ":" + minutes + ":" + secondes + " " +"PM";
     // dateDiv.textContent = jourNom + ", " + jourNUmero + " " + mois + " " + annee;
 
     // Lancer la fonction affichage heure toutes les 1000 ms, soit toute les secondes : 

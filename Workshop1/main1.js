@@ -1,10 +1,9 @@
 var heuresDiv = document.querySelector('.heures');
 
-
 var affichageHeure = function(){
     // Déclaration des variables qui seront utilisées : 
     var today,heures, minutes, secondes, deuxChiffres;
-
+    
 
     // Récupérer la date actuelle : 
     today = new Date();

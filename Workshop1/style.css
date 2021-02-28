@@ -1,0 +1,210 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'exo 2', sans-serif;
+}
+
+ body{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	 /* background: linear-gradient(45deg, #2ecc71, #16a085);  */
+} 
+
+.h {
+	
+	position: relative;
+    left: 33%;
+    top: 20%;
+    FONT-SIZE:xx-large;
+	padding-bottom: 20px;
+}
+
+
+.YoucodeTime{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 18px double black;
+	background-color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+.YoucodeTime:before{
+	z-index: 1;
+	content: '';
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	/* transform: translate(-50%, -50%); */
+	width: 20px;
+	height: 20px;
+	background-color: rgb(131, 110, 110);
+	border-radius: 50%;
+	border: 8px solid black;
+}
+.YoucodeTime:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(285deg, rgba(255, 255, 255, 0) 50%, rgba(255, 224, 224, 0) 50%);
+}
+.num22{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 700;
+	padding: 18px;
+}
+
+
+.num{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 18px;
+}
+
+.num:after{
+	content: '';
+	/* margin: 6px; */
+	position: absolute;
+	top: 8;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 5px;
+	height: 15px;
+	background-color: rgb(10, 10, 10);
+	
+}
+
+.num1{
+	transform: rotate(30deg);
+}
+.num1 div{
+	transform: rotate(-30deg);
+}
+
+.num2{
+	transform: rotate(60deg);
+}
+.num2 div{
+	transform: rotate(-60deg);
+}
+
+.num3{
+	transform: rotate(90deg);
+}
+.num3 div{
+	transform: rotate(-90deg);
+}
+
+.num4{
+	transform: rotate(120deg);
+}
+.num4 div{
+	transform: rotate(-120deg);
+}
+
+.num5{
+	transform: rotate(150deg);
+}
+.num5 div{
+	transform: rotate(-150deg);
+}
+
+.num6{
+	transform: rotate(180deg);
+}
+.num6 div{
+	transform: rotate(-180deg);
+}
+
+.num7{
+	transform: rotate(210deg);
+}
+.num7 div{
+	transform: rotate(-210deg);
+}
+
+.num8{
+	transform: rotate(240deg);
+}
+.num8 div{
+	transform: rotate(-240deg);
+}
+
+.num9{
+	transform: rotate(270deg);
+}
+.num9 div{
+	transform: rotate(-270deg);
+}
+
+.num10{
+	transform: rotate(300deg);
+}
+.num10 div{
+	transform: rotate(-300deg);
+}
+
+.num11{
+	transform: rotate(330deg);
+}
+.num11 div{
+	transform: rotate(-330deg);
+}
+
+.div1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.div1 div{
+	position: absolute;
+	bottom: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	/* background-color: #000; */
+}
+
+.sec{
+	width: 13px;
+	height: 40%;
+	background-color: crimson;
+	border-radius: 50%;
+}
+
+.min{
+	height: 40%;
+	width: 10px;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.hour{
+	height: 30%;
+	width: 12px;
+	border-radius: 50%;
+	background-color: #000;
+}

@@ -1,58 +1,84 @@
-* {
-    margin: 0px;
-    padding: 0px
-}
-
-html {
-    font-size: 16px;
-    font-family: 'Akaya Telivigala', cursive;
-}
-
-body {
-    background-color: rgb(92, 43, 226);
-    color: white;
-}
-
-.todo {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-size: 3.5rem;
-    margin-bottom: 12px;
-}
-
-.t {
-    width: 17rem;
-    height: 2rem;
-    padding: .2rem;
-    border-radius: .5rem;
-    background-color: rgb(92, 43, 226);
-    border: 2px solid rgb(11, 4, 29);
-    color: white;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.562);
-}
-
-.btn:hover {
-    background: #eee;
-    color: rgb(92, 43, 226);
-}
+    * {
+        margin: 0px;
+        padding: 0px
+    }
+    
+    html {
+        font-size: 16px;
+        font-family: 'Akaya Telivigala', cursive;
+    }
+    
+    body {
+        background-color: rgb(92, 43, 226);
+        color: white;
+    }
+    
+    .todo {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 12px;
+    }
+    
+    .search-todo {
+        width: 17rem;
+        height: 2rem;
+        padding: .2rem;
+        border-radius: .5rem;
+        background-color: rgb(92, 43, 226);
+        border: 2px solid rgb(11, 4, 29);
+        color: white;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn {
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.562);
+    }
+    
+    .btn:hover {
+        background: #eee;
+        color: rgb(92, 43, 226);
+    }
+    
+    .todo-do {
+        margin-top: 10px;
+        background: rgb(172, 172, 172);
+        display: flex;
+        border-radius: 10px;
+        /* flex-direction: row; */
+    }
+    
+    .todo-names {
+        padding: .2rem;
+        width: 15.7rem;
+        height: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        list-style-type: none;
+    }
+    
+    .trash-btn {
+        background: rgb(172, 172, 172);
+        color: black;
+        border: none;
+        float: left;
+        padding: .5rem;
+        border-radius: 10px;
+    }

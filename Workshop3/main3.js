@@ -25,7 +25,7 @@ const todo_list = document.querySelector(".todo-list")
 
 
 btn.addEventListener("click", addnewtodo)
-todo_list.addEventListener("click", deletr_item)
+todo_list.addEventListener("click", delete_item)
 
 
 
@@ -47,7 +47,7 @@ function addnewtodo(e) {
 
 }
 
-function deletr_item(e) {
+function delete_item(e) {
     const item = e.target;
     if (item.className === "trash-btn") {
         const todo = item.parentElement;

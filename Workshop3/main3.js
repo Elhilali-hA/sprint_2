@@ -58,3 +58,17 @@ function delete_item(e) {
         todo.remove()
     }
 }
+
+function searchbar() {
+    let input = document.getElementById('ser').value
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('todo-do');
+
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display = "none";
+        } else {
+            x[i].style.display = "flex";
+        }
+    }
+}

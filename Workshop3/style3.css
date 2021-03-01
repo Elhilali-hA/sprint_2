@@ -9,7 +9,7 @@
     }
     
     body {
-        background-color: rgb(92, 43, 226);
+        background-color: #245468;
         color: white;
     }
     
@@ -31,7 +31,7 @@
         height: 2rem;
         padding: .2rem;
         border-radius: .5rem;
-        background-color: rgb(92, 43, 226);
+        background-color: #245468;
         border: 2px solid rgb(11, 4, 29);
         color: white;
     }
@@ -54,15 +54,14 @@
     
     .btn:hover {
         background: #eee;
-        color: rgb(92, 43, 226);
+        color: #245468;
     }
     
     .todo-do {
         margin-top: 10px;
-        background: rgb(172, 172, 172);
+        background: #4f7686;
         display: flex;
         border-radius: 10px;
-        /* flex-direction: row; */
     }
     
     .todo-names {
@@ -70,12 +69,12 @@
         width: 15.7rem;
         height: 1.5rem;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         list-style-type: none;
     }
     
     .trash-btn {
-        background: rgb(172, 172, 172);
+        background: #4f7686;
         color: black;
         border: none;
         float: left;

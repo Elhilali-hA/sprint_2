@@ -7,7 +7,6 @@ body{
 
 .horloge{
     background-color: rgb(0, 0, 0);
-    
     display: flex;
     flex-direction: column;
     justify-content: center;

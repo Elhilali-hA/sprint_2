@@ -1,0 +1,52 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: cadetblue; */
+    height: 100vh;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container_horloge{
+    margin:auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(img/img.horloge.png);
+    background-size: cover;
+    /* background-color: chartreuse; */
+
+}
+.hand{
+    position:absolute;
+    top:50%;
+    left :50%;
+    transform-origin:bottom;
+    border-radius: 2px;
+    transform: translate(-50%);
+
+
+}
+.hr{
+    width:4px;
+    height:12.5%;
+    background-color: rgb(231, 18, 135);
+
+}
+.min{
+    width:2px;
+    height:16%;
+    background-color: rgb(160, 95, 95);
+    
+}
+.sec{
+    width:2px;
+    height:22%;
+    background-color: rgb(22, 25, 221);
+    
+}

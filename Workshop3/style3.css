@@ -43,6 +43,11 @@
         align-items: center;
     }
     
+    input:focus {
+        outline: none !important;
+        border-color: #719ECE;
+    }
+    
     .btn {
         border: none;
         background-color: inherit;

@@ -21,11 +21,15 @@
 const todo_name = document.querySelector(".todo-name")
 const btn = document.querySelector(".btn")
 const todo_list = document.querySelector(".todo-list")
+const search = document.querySelector(".search-todo")
 
 
 
 btn.addEventListener("click", addnewtodo)
 todo_list.addEventListener("click", delete_item)
+search.addEventListener("keyup", searchbar)
+
+// search.addEventListener("")
 
 
 

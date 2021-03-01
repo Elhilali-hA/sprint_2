@@ -32,7 +32,7 @@
         padding: .2rem;
         border-radius: .5rem;
         background-color: #245468;
-        border: 2px solid rgb(11, 4, 29);
+        border: 1px solid rgb(11, 4, 29);
         color: white;
     }
     
@@ -80,4 +80,15 @@
         float: left;
         padding: .5rem;
         border-radius: 10px;
+    }
+    
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+     ::placeholder {
+        color: white;
+        opacity: 1;
+        font-family: 'Akaya Telivigala', cursive;
     }

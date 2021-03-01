@@ -39,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    transition: flex 1s;
    
 
 }
@@ -55,3 +55,10 @@
     font-size: 10px;
     transform: translateY(20rem);
 }
+.mouvement{
+    flex: 1 0 50%;
+
+
+}
+
+

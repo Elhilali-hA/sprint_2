@@ -23,6 +23,9 @@ var affichageHeure = function(){
         day = 'PM';
         heures = heures - 12;
     }
+    else{
+        day = 'AM'
+    }
     if (heures == 0) {
         heures = 12;
     }

@@ -1,0 +1,11 @@
+.myDivOne {
+    background-color: pink;
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+.smoth {
+  margin: 20px;
+  height: 300px;
+  transition: all .5s linear;
+}

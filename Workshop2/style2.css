@@ -8,6 +8,7 @@
     min-height:100vh;
     overflow: hidden;
     display: flex;
+    font-family: 'helvetica';
 }
 .img1{
     
@@ -64,14 +65,17 @@
   transform:translateY(8rem);
   transition: all 0.4s 0.5s ease-in-out;
   font-size: 60px;
+  font-family: 'helvetica';
  
 }
 .contenue.textmouve p:nth-child(1){
     transform:translateY(-8rem);
     transition: all 0.4s 0.5s ease-in-out;
     font-size: 60px;
+    font-family: 'helvetica';
     
 }
 .contenue.textmouve p:nth-child(2){
     font-size: 60px;  
+    font-family: 'helvetica';
 }

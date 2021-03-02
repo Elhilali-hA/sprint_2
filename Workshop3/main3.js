@@ -39,7 +39,7 @@ function addnewtodo(e) {
 
     e.preventDefault();
     if (todo_name.value == "") {
-        alert("please enter new todo")
+        alert("please enter new todo");
     } else {
         const todo = document.createElement('div');
         todo.classList.add('todo-do');
@@ -53,8 +53,8 @@ function addnewtodo(e) {
         todo.appendChild(delet);
         todo_list.appendChild(todo)
     }
-
 }
+
 
 function delete_item(e) {
     const item = e.target;

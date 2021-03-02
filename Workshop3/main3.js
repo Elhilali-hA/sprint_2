@@ -36,18 +36,23 @@ search.addEventListener("keyup", searchbar)
 
 
 function addnewtodo(e) {
+
     e.preventDefault();
-    const todo = document.createElement('div');
-    todo.classList.add('todo-do');
-    const newtodo = document.createElement('li');
-    newtodo.innerText = todo_name.value;
-    newtodo.classList.add('todo-names');
-    todo.appendChild(newtodo)
-    const delet = document.createElement('button');
-    delet.innerHTML = `<i class = "fas fa-trash"></i>`
-    delet.classList.add("trash-btn");
-    todo.appendChild(delet);
-    todo_list.appendChild(todo)
+    if (todo_name.value == "") {
+        alert("please enter new todo")
+    } else {
+        const todo = document.createElement('div');
+        todo.classList.add('todo-do');
+        const newtodo = document.createElement('li');
+        newtodo.innerText = todo_name.value;
+        newtodo.classList.add('todo-names');
+        todo.appendChild(newtodo)
+        const delet = document.createElement('button');
+        delet.innerHTML = `<i class = "fas fa-trash"></i>`
+        delet.classList.add("trash-btn");
+        todo.appendChild(delet);
+        todo_list.appendChild(todo)
+    }
 
 }
 

@@ -10,20 +10,24 @@
     display: flex;
 }
 .img1{
-    background-image: url("ii/fog.jpg");
+    
+    background-image: url("ii/ice.jpg");
     
 }
 .img2{
-    background-image: url("ii/fox.jpg");
+    background-image: url("ii/valley.jpg"); 
 }
 .img3{
-    background-image: url("ii/ice.jpg");
-}
-.img4{
+   
     background-image: url("ii/montagne.jpg");
 }
+.img4{
+    
+    background-image: url("ii/fox.jpg");
+}
 .img5{
-    background-image: url("ii/valley.jpg");    
+     
+    background-image: url("ii/fog.jpg");  
 }
 .contenue{
     background-size: cover;  
@@ -37,6 +41,8 @@
 }
 .contenue p{
     color: white;
+    font-size: 25px;
+    
 }
 .contenue p:nth-child(1){
    
@@ -54,18 +60,18 @@
 }
 
 
-.contenue.texthabt p:nth-child(3){
+.contenue.textmouve p:nth-child(3){
   transform:translateY(8rem);
   transition: all 0.4s 0.5s ease-in-out;
   font-size: 60px;
  
 }
-.contenue.texthabt p:nth-child(1){
+.contenue.textmouve p:nth-child(1){
     transform:translateY(-8rem);
     transition: all 0.4s 0.5s ease-in-out;
     font-size: 60px;
     
 }
-.contenue.texthabt p:nth-child(2){
+.contenue.textmouve p:nth-child(2){
     font-size: 60px;  
 }

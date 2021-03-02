@@ -1,7 +1,6 @@
 var hourDiv = document.querySelector('.hour');
-
 var affichageHeure = function(){
-    var today,heures, minutes, secondes, deuxChiffres;
+    var today,heures, minutes, secondes, deuxChiffres,day;
     
     today = new Date();
     
@@ -12,22 +11,28 @@ var affichageHeure = function(){
             return x;
         }
     }
-
     
     secondes = deuxChiffres(today.getSeconds());
-
+    
     minutes = deuxChiffres(today.getMinutes());
     
     heures = deuxChiffres(today.getHours());
-
-    if(today.getHours()>12){
-        hourDiv.textContent = heures + ":" + minutes + ":" + secondes + " " +"PM";
+    
+    
+    if (heures > 12) {
+        day = 'PM';
+        heures = heures - 12;
     }
-        
     else{
-        hourDiv.textContent = heures + ":" + minutes + ":" + secondes + " " +"AM";
+        day = 'AM'
+    }
+    if (heures == 0) {
+        heures = 12;
     }
     
+    hourDiv.textContent = heures + ":" + minutes + ":" + secondes + " " + day;
+        
+        
 }
 setInterval(affichageHeure, 1000);
 affichageHeure();

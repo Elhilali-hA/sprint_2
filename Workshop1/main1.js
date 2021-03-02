@@ -3,8 +3,6 @@ element.innerHTML = "Youcode Time";
 element.style.color = 'rgb(0, 255, 255,0.8)';
 element.style.fontSize = '80px';
 
-
-
 var hourDiv = document.querySelector('.hour');
 var affichageHeure = function(){
     var today,heures, minutes, secondes, deuxChiffres,day;
@@ -39,9 +37,10 @@ var affichageHeure = function(){
     
     hourDiv.textContent = heures + ":" + minutes + ":" + secondes + " " + day;
     
-    
 }
+
 setInterval(affichageHeure, 1000);
+
 affichageHeure();
 
 

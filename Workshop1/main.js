@@ -1,15 +1,18 @@
 
-let date,hr,min,sec
+let h,m,s;
+ var degre=6;
 
-function youcodeTime(){
-     date=new date()
-     hr =date.getHours() ;
-     min = date.getMinutes() ;
-     sec = date.getSeconds() ;
+function clock(){
+     date=new Date();
+     
+   let  s = date.getSeconds() ;
+   let  m = date.getMinutes();
+    let   h =date.getHours()  ;
 
-   document.getElementsByClassName("sec").style.transform = "rotate(" +(sec/60)*360 + "deg)";
-   document.getElementsByClassName("min").style.transform = "rotate(" +(min/60)*360 + "deg)";
-   document.getElementsByClassName("hr").style.transform = "rotate(" +(hr/12)*360 + "deg)";
+   document.getElementById("sec").style.transform = "rotate(" +(s*360) /60+ "deg)";
+   document.getElementById("min").style.transform = "rotate(" +(m*360 /60 + 6 * s /60) +"deg)";
+   document.getElementById("hour").style.transform = "rotate(" +(h*360 )/12 + m * 30/60 + "deg)";
 }
-youcodeTime()
-window.setInterval(youcodeTime,1000)
+clock ();
+setInterval(clock,1000);
+

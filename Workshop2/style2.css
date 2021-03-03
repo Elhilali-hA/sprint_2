@@ -8,7 +8,7 @@
     min-height:100vh;
     overflow: hidden;
     display: flex;
-    font-family: 'helvetica neue';
+    font-family: 'Amatic SC', cursive;
 }
 .img1{
     
@@ -42,7 +42,7 @@
 }
 .contenue p{
     color: white;
-    font-size: 25px; 
+    font-size: 35px; 
     text-shadow:  2px 2px #000 ;
 }
 .contenue p:nth-child(1){
@@ -65,16 +65,16 @@
   transform:translateY(5rem);
   transition: all 0.8s 0.5s ease-in-out;
   font-size: 50px;
-  font-family: 'helvetica neue';
+  font-family: 'Amatic SC', cursive;
 }
 .contenue.textmouve p:nth-child(1){
     transform:translateY(-5rem);
     transition: all 0.8s 0.5s ease-in-out;
     font-size: 50px;
-    font-family: 'helvetica neue';
+    font-family: 'Amatic SC', cursive;
     
 }
 .contenue.textmouve p:nth-child(2){
     font-size: 50px;  
-    font-family: 'helvetica neue';
+    font-family: 'Amatic SC', cursive;
 }

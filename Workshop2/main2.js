@@ -2,7 +2,7 @@ var mouves = document.querySelectorAll(".contenue");
 function texttranslate(){
   this.classList.toggle("textmouve");
 };
-setTimeout(texttranslate, 7000); 
+
 
 function zoom(){
    this.classList.toggle("mouvement");
